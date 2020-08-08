@@ -94,15 +94,17 @@ function writePassword() {
     }
 
     // Adds randomchar to final result until reaches desired password length //
-    for (var i = 0; i<possiblechar.length; i++){
+    for (var i = 0; i<options.length; i++){
         var randomchar = getrandom(possiblechar)
         result.push(randomchar)
     }
     // Adds guaranteechar has at least one of each lower and upper //
-    for (var i=0; i<guaranteechar.length; i++){
+    for (var i=0; i < guaranteechar.length; i++) {
         result[i] = guaranteechar[i]
     }
+    
 
+    // 
 
 
     var passwordText = document.querySelector("#password");
