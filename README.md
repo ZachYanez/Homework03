@@ -22,6 +22,8 @@
 # Description
 This web app will help you create a strong password with randomly generated letters, numbers, and special characters. The user can select which characters to use and how many by answering a few prompts. 
 
+![Screen Shot 2021-01-29 at 7 46 03 PM](https://user-images.githubusercontent.com/67520932/106343377-a76e2100-626a-11eb-9461-45a256432e6d.png)
+
 
 # Github
 [https://www.github.com/ZachYanez](https://www.github.com/ZachYanez)
